@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--####################################-->
+    <!--Navigation-->
+    <!--####################################-->
+
+    <header>
+      <a href="#" class="logo">
+        <img src="images/monLogo.png" alt="Logo Allan Mulot" />
+        <span>Allan</span>
+      </a>
+      <i id="menu-burger" class="bx bx-menu"></i>
+
+      <nav class="navigation">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">A propos</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <!--####################################-->
+    <!--Home-->
+    <!--####################################-->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello je suis</h3>
+        <h1>Allan Mulot</h1>
+        <h3>et je suis <span class="multiple"></span></h3>
+        <p>
+          Passionné par le développement web, je me forme aujourd’hui aux bases
+          du front‑end (HTML, CSS, JavaScript) et j’explore la partie back‑end
+          avec Node.js. Mon objectif est de transformer des idées en interfaces
+          interactives tout en continuant à apprendre les nouveaux frameworks
+          qui me permettront d’avancer dans ma carrière.
+        </p>
+
+        <div class="social-media">
+          <a href="https://github.com/AllanWardenBastion" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/allan-mulot/" target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://www.instagram.com/allan.mlt.dev/" target="_blank"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://t.me/allan_mlt_dev" target="_blank"
+            ><i class="bx bxl-telegram"></i
+          ></a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="images/moi1.png" alt="une photo de moi 1" />
+      </div>
+    </section>
+
+    <!--####################################-->
+    <!--A propos-->
+    <!--####################################-->
+
+    <section id="about" class="about">
+      <div class="about-img">
+        <img src="images/moi2.png" alt="une photo de moi 2 " />
+      </div>
+
+      <div class="about-content">
+        <h2 class="section-title">A<span>propos</span></h2>
+        <h3>Développeur Web en formation</h3>
+        <p>
+          Je suis Allan Mulot, étudiant passionné de développement web.
+          Actuellement, je me forme moi‑même aux bases du front‑end : HTML, CSS
+          et JavaScript (y compris le DOM). J’ai également commencé à explorer
+          Node.js pour comprendre la partie back‑end.
+        </p>
+        <p>
+          En tant que bidouilleur, j’aime tester de petites idées : créer un
+          site statique, manipuler le DOM ou écrire des scripts Node pour
+          automatiser des tâches simples. Ces projets me permettent d’acquérir
+          une solide compréhension des fondamentaux avant de passer à des
+          frameworks plus avancés.
+        </p>
+        <p>
+          Mon objectif est de poursuivre mon apprentissage en formation afin
+          d’approfondir mes connaissances et d’explorer de nouveaux outils
+          (React, Vue, etc.). Je suis motivé, curieux et prêt à mettre en
+          pratique ces compétences dans un stage ou un projet collaboratif dès
+          que je serai prêt.
+        </p>
+        <a href="images/CV-Allan-Mulot_2026.pdf" target="_blank" class="btn">
+          Télécharger mon CV
+        </a>
+      </div>
+    </section>
+
+    <!--####################################-->
+    <!--Service-->
+    <!--####################################-->
+
+    <section class="services" id="services">
+      <h2 class="section-title">Mes <span>Services</span></h2>
+
+      <p style="text-align: center; margin-bottom: 3rem">
+        Débutant passionné, en constante progression
+      </p>
+
+      <div class="services-content">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Développement Web (bases)</h3>
+          <p>
+            Création de sites web simples en HTML, CSS et JavaScript. Mise en
+            page responsive et premiers effets interactifs.
+          </p>
+          <a href="#contact" class="btn">Me contacter</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-palette"></i>
+          <h3>Intégration & Design</h3>
+          <p>
+            Intégration de maquettes simples et création d’interfaces modernes.
+            Travail sur les couleurs, typographies et structure des pages.
+          </p>
+          <a href="#contact" class="btn">Me contacter</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-graduation"></i>
+          <h3>Apprentissage en cours</h3>
+          <p>
+            Actuellement en formation pour devenir développeur web.
+            Apprentissage du JavaScript, du DOM et prochainement du back-end
+            (Node.js).
+          </p>
+          <a href="#about" class="btn">En savoir plus</a>
+        </div>
+      </div>
+    </section>
+
+    <!--####################################-->
+    <!--Portfolio-->
+    <!--####################################-->
+
+    <section id="portfolio" class="portfolio">
+      <h2 class="section-title">Mes<span>Projets</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="" alt="projet1" />
+          <div class="portfolio-layer">
+            <h4>Titre du projet</h4>
+            <p>Description</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="" alt="projet2" />
+          <div class="portfolio-layer">
+            <h4>Titre du projet</h4>
+            <p>Description</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="" alt="projet3" />
+          <div class="portfolio-layer">
+            <h4>Titre du projet</h4>
+            <p>Description</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="" alt="projet4" />
+          <div class="portfolio-layer">
+            <h4>Titre du projet</h4>
+            <p>Description</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="" alt="projet5" />
+          <div class="portfolio-layer">
+            <h4>Titre du projet</h4>
+            <p>Description</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--####################################-->
+    <!--Contact-->
+    <!--####################################-->
+
+    <section class="contact" id="contact">
+      <h2 class="section-title">Me<span>Contacter</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Nom" />
+          <input type="email" placeholder="Email" />
+        </div>
+
+        <div class="input-box">
+          <input type="tel" placeholder="Téléphone" />
+          <input type="text" placeholder="Sujet" />
+        </div>
+
+        <textarea placeholder="Message"></textarea>
+        <input type="submit" value="Envoyer" class="btn" />
+      </form>
+    </section>
+
+    <!--####################################-->
+    <!--Footer-->
+    <!--####################################-->
+
+    <footer>
+      <div class="footer-txt">
+        <p>
+          Copyright &copy; 2026 - 2027 - Portfolio Allan Mulot - Tous droits
+          réservés
+        </p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home" class="btn-home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
